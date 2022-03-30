@@ -25,7 +25,6 @@ const colorInvert=()=>{
     ctx.drawImage(img,0,0,canvas.width,canvas.height);
     const imgData=ctx.getImageData(0,0,canvas.width,canvas.height);
     const data=imgData.data;
-    
     for(let i=0; i<data.length;i+=4){
         data[i]=255-data[i]; //controls red values
         data[i+1]=255-data[i+1];//controls green values
@@ -34,7 +33,8 @@ const colorInvert=()=>{
     ctx.putImageData(imgData,0,0);
 }
 //precondition:  Pixels in image are in a sorted array
-//postcondition: The image data is reassigned to have the rgb values randomized each time the function is called
+//postcondition: The image data is reassigned to have the rgb values randomized each 
+//time the function is called
 const randomPixels=()=>{
     ctx.drawImage(img,0,0,canvas.width,canvas.height);
     const imgData=ctx.getImageData(0,0,canvas.width,canvas.height);
@@ -62,8 +62,3 @@ const invertClick=()=>{
 const randomizeClick=()=>{
     randomPixels();
 }
-
-
-
-
-
