@@ -16,7 +16,7 @@ img.src='melon.jpg';
 //once the image loads, the image will load as a canvas drawing
 img.onload=function(){
     ctx.drawImage(img,0,0,canvas.width,canvas.height);
-};
+}
 
 /****** Library Transformation Functions ******/
 //precondition:  Pixels in image are in a sorted array
@@ -25,16 +25,16 @@ const colorInvert=()=>{
     ctx.drawImage(img,0,0,canvas.width,canvas.height);
     const imgData=ctx.getImageData(0,0,canvas.width,canvas.height);
     const data=imgData.data;
+    
     for(let i=0; i<data.length;i+=4){
         data[i]=255-data[i]; //controls red values
         data[i+1]=255-data[i+1];//controls green values
         data[i+2]=255-data[i+2];//control blue values
     }
     ctx.putImageData(imgData,0,0);
-};
+}
 //precondition:  Pixels in image are in a sorted array
-//postcondition: The image data is reassigned to have the rgb values randomized each 
-//time the function is called
+//postcondition: The image data is reassigned to have the rgb values randomized each time the function is called
 const randomPixels=()=>{
     ctx.drawImage(img,0,0,canvas.width,canvas.height);
     const imgData=ctx.getImageData(0,0,canvas.width,canvas.height);
@@ -46,22 +46,22 @@ const randomPixels=()=>{
     }
     //Image data is re-enetered into canvas image, image will be modified
     ctx.putImageData(imgData,0,0);
-};
+}
 
 
 /****** Button Functions ******/
 //when button is clicked, original image is loaded in canvas
 const resetClick=()=>{
     ctx.drawImage(img,0,0,canvas.width,canvas.height);
-};
+}
 //when button is clicked, colorInvert() is called
 const invertClick=()=>{
     colorInvert();
-};
+}
 //when button is clicked, randomPixels() is called
 const randomizeClick=()=>{
     randomPixels();
-};
+}
 
 
 
