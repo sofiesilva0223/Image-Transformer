@@ -14,7 +14,7 @@ Testing Usage:
 - Clicking on the "Randomize Pixels" button will trigger the randomizePixels() functions from the library and randomize the image's pixels (can repeatedly clicked and show randomized pixels of the image each time)
 
 Image Files Supported: JPG/JPEG, PNG
-(See tests.txt for testing of JPG, PNG, GIF and SVG files)
+(See tests.md for testing of JPG, PNG, GIF and SVG files and outcomes)
 
 Preview:
 
