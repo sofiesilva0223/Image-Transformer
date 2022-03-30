@@ -1,4 +1,4 @@
-# Transformer
+# Image-Transformer
 Description: A test page which has an original image displayed on the left and the modifiable image on the right. The page has buttons to trigger the transformation functions, colorInvert() and randomizePixels() and includes a button to reset the image to it's original image.
 
 Library Usage:
@@ -13,7 +13,8 @@ Testing Usage:
 - Clicking on the "Invert Colors" button will trigger the invertColors() function from the library and invert the image's colors
 - Clicking on the "Randomize Pixels" button will trigger the randomizePixels() functions from the library and randomize the image's pixels (can repeatedly clicked and show randomized pixels of the image each time)
 
-
+Image Files Supported: JPG/JPEG, PNG
+(See tests.txt for testing off JPG, PNG, GIF and SVG files)
 
 Preview:
 
