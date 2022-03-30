@@ -1,3 +1,15 @@
+Outcome: 
+Library supported: 
+- meleon.jpg
+- clocks.png<br>
+
+Library did not support:
+- cow.gif<br>
+Issue: Canvas image only loaded one frame, not entire gif but was able to have colorInvert() and randomizePixels() work on the frame.<br>
+- wolf.svg<br>
+Issue: Canvas image did not load at all, image in the HTML code only loaded. Not able to perform colorInvert() and randomizePixels() on the canvas.<br>
+
+
 Chamelon Picture (meleon.jpg)
 
 Inverted Color<br>
