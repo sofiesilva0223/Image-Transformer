@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+     <!-- Will need to link the style.css file from this library-->
+    <link rel="stylesheet" href="style.css"/>
+</head>
+    <body>
+    <h1>Image Transforms</h1>
+    <div class="wordContainer">
+        <pre>Original Image                        After Transformation</pre>
+        </div>
+            <div class="container">
+                <!-- Can Modify Image Below If Another Image is to be Used-->
+                <img src ="melon.jpg"width="500" height="450">
+                <canvas id="canvas" width="500" height="450"></canvas>
+                <div class="button">
+                    <button class="btnReset" onclick=resetClick();>Reset</button>
+                    <button class="btnInvert" onclick=invertClick();>Invert Colors</button>
+                    <button class="btnRandom" onclick=randomizeClick();>Randomize Pixels</button>
+                </div>
+                <script src= "script.js"> </script> 
+            </div>
+    </body>
+</html>

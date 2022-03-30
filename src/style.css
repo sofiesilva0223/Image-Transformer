@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap'); 
+h1{
+    font-family:'Prompt', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.wordContainer{
+    font-family:'Prompt', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+body{
+    text-align: center;
+    background-image:linear-gradient(to right, rgba(240, 221, 221), rgba(255, 130, 84));
+}
+.button{
+    text-align: center;
+}
+
