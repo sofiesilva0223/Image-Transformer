@@ -1,4 +1,4 @@
-Outcome: <br>
+Outcome <br>
 
 Library supported: 
 - meleon.jpg
@@ -10,7 +10,7 @@ Issue: Canvas image only loaded one frame, not entire gif but was able to have c
 - wolf.svg<br>
 Issue: Canvas image did not load at all, image in the HTML code only loaded. Not able to perform colorInvert() and randomizePixels() on the canvas.<br>
 
-
+<p>Tests</p>
 Chamelon Picture (meleon.jpg)
 
 Inverted Color<br>
