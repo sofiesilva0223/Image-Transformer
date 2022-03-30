@@ -11,7 +11,7 @@ const ctx= canvas.getContext('2d');
 //creating new image
 const img= new Image();
 //can modify the image used
-img.src='melon.jpg'; 
+img.src="meleon.jpg"; 
 
 //once the image loads, the image will load as a canvas drawing
 img.onload=function(){
