@@ -16,6 +16,8 @@ Testing Usage:
 Image Files Supported: JPG/JPEG, PNG
 (See tests.md for testing of JPG, PNG, GIF and SVG files and outcomes)
 
+Note: Tested library on four file types using Live Server Extension from Visual Studio.
+
 Preview:
 
 <img width="600" height="300" alt="Screen Shot 2022-03-29 at 5 08 42 PM" src="https://user-images.githubusercontent.com/89554609/160726404-cd94dd7c-7eb9-4f34-8667-37033d0ca7c9.png">
