@@ -16,7 +16,7 @@ Testing Usage:
 Image Files Supported: JPG/JPEG, PNG
 (See tests.md for testing of JPG, PNG, GIF and SVG files and outcomes)
 
-Note: Tested library on four file types using Live Server Extension from Visual Studio.
+Note: Tested image types using Live Server Extension from Visual Studio.
 
 Preview:
 
