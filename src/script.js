@@ -1,5 +1,6 @@
-/*  Description 
-*   This library has functions to transform an image with no css and loads, 
+/*  Author: Sofia Silva
+*   Description:
+*   Program transforms an image with no css and loads, 
 *   sets and gets pixel data from the HTML5 Canvas Api:
 *   colorInvert()- inverts the colors in an image
 *   randomizePixels()-randomizes the pixels in an image
