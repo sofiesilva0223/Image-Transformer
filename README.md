@@ -1,7 +1,7 @@
 # Image-Transformer
 Description: A test page which has an original image displayed on the left and the modifiable image on the right. The page has buttons to trigger the transformation functions, colorInvert() and randomizePixels() and includes a button to reset the image to it's original image.
 
-Library Usage:
+Functions:
 - colorInvert()- inverts the colors in an image
 - randomizePixels()-randomizes the pixels in an image
 - resetClick()- when the "Reset" button is clicked, the original image is loaded in canvas
